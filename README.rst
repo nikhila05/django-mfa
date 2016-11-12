@@ -4,7 +4,7 @@ django-mfa
 .. image:: https://readthedocs.org/projects/django-mfa/badge/?version=latest
    :target: http://django-mfa.readthedocs.io/en/latest/
    :alt: Documentation Status
-   
+
 .. image:: https://travis-ci.org/MicroPyramid/django-mfa.svg?branch=master
    :target: https://travis-ci.org/MicroPyramid/django-mfa
 
@@ -15,7 +15,7 @@ django-mfa
 .. image:: https://img.shields.io/pypi/v/django-mfa.svg
     :target: https://pypi.python.org/pypi/django-mfa
     :alt: Latest Release
-    
+
 .. image:: https://coveralls.io/repos/github/MicroPyramid/django-mfa/badge.svg?branch=master
    :target: https://coveralls.io/github/MicroPyramid/django-mfa?branch=master
 
@@ -27,11 +27,9 @@ django-mfa
     :target: https://pypi.python.org/pypi/django-mfa/
 
 
-Django-mfa is a simple Django app to for providing MFA (Multi-Factor Authentication).
+`Django mfa`_ is a simple Django app to for providing MFA (Multi-Factor Authentication).
 
-**Documentation** is `avaliable online
-<http://django-mfa.readthedocs.org/>`_, or in the docs
-directory of the project.
+**Documentation** is `avaliable online`_, or in the docs directory of the project.
 
 Quick start
 -----------
@@ -54,7 +52,7 @@ Settings
 
 Add ``otp_app'`` to the ``INSTALLED_APPS`` to your *settings.py*.
 
-See the :doc:`settings` section for other settings.
+See the ``doc:settings`` section for other settings.
 
 Add ``'otp_app.middleware.MfaMiddleware'`` to the ``MIDDLEWARE_CLASSES``
 
@@ -74,6 +72,9 @@ Add the following to your root urls.py file.
 
 Done. With these settings you have now, you will get the MFA features.
 
-We welcome your feedback and support, raise github ticket if you want to report a bug. Need new features? `Contact us here`_
+We welcome your feedback and support, raise `github ticket`_ if you want to report a bug. Need new features? `Contact us here`_
 
 .. _contact us here: https://micropyramid.com/contact-us/
+.. _avaliable online: http://django-mfa.readthedocs.io/en/latest/
+.. _github ticket: https://github.com/MicroPyramid/django-mfa/issues
+.. _Django mfa: https://micropyramid.com/oss/
